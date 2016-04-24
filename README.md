@@ -51,9 +51,9 @@ in the `test` directory. Sources are in the `src` directory.
     * [tshirt.js](src/tshirt.js): T-Shirt Rule implementation.
     * [voucher.js](src/voucher.js): Voucher Rule implementation.
 * `model/`: Contains the `model` package files.
-  * [cart.js](src/model/cart.js): Represents the cart model with an array of Items as property, a
+  * [cart.js](src/models/cart.js): Represents the cart model with an array of Items as property, a
   constructor and methods for adding, getting the price-sum and counting by product-code.
-  * [item.js](src/model/item.js): Represents the item model with constructors for available items.
+  * [item.js](src/models/item.js): Represents the item model with constructors for available items.
 * `constants/`: Contains files with contants for the application.
 * `helpers/`: Some reusable helper methods for the application.
 
